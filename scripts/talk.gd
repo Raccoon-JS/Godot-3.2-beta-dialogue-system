@@ -1,5 +1,7 @@
 extends Node
 
+export (String, FILE, "*.json") var lines
+
 const scene_dialogue = {
 	"intro": {
 		"dialogue": "Want to visit the shop?",

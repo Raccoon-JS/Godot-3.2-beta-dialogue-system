@@ -1,0 +1,42 @@
+{
+	"opening":{
+		"type":"non-choice",
+		"dialogue":"How are you?"
+	},
+	"intro": 
+	{
+		"type":"choice",
+		"dialogue": "Want to visit the shop?",
+			"left": {
+				"text": "Thanks!",
+				"value": "bread_type"
+			},
+			"right": {
+				"text": "No thanks. I'm good.",
+				"value": "quit"
+			}
+	}, 
+	"bread_type": 
+	{
+		"type":"choice",
+	 	"dialogue": "What is your favorite bread?",
+			"left": {
+				"text": "castella",
+				"value": "load_shop"
+			},
+			"right": {
+				"text": "baugette",
+				"value": "load_shop"
+			}
+	},
+	"load_shop": 
+	{
+		"func": "change_scene",
+		"args": ["res://scenes/shop.tscn"]
+	},
+	"quit":
+	{
+		"func": "quit_game",
+		"args": []
+	}
+}

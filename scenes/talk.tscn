@@ -7,14 +7,15 @@
 [ext_resource path="res://fonts/SourceCodePro_FontsOnly-1.009/SourceCodePro-Bold.ttf" type="DynamicFontData" id=5]
 
 [sub_resource type="DynamicFont" id=1]
+size = 24
 font_data = ExtResource( 3 )
 
 [sub_resource type="DynamicFont" id=2]
-size = 10
+size = 24
 font_data = ExtResource( 5 )
 
 [sub_resource type="DynamicFont" id=3]
-size = 10
+size = 24
 font_data = ExtResource( 5 )
 
 [node name="talk" type="Node"]
