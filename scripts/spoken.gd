@@ -1,7 +1,9 @@
-{
+extends Node
+
+var first = {
 	"opening":{
 		"type": "dialogue",
-		"picture":"res://images/Sprite - Female Pink Hair Starter Pack/Sprite F PinkH Professional Smile01.png",
+		"picture":"res://images/MomAndDad.png",
 		"line": "Hello, dear.",
 			"click":{
 				"value": "intro"
@@ -41,4 +43,4 @@
 		"func": "quit_game",
 		"args": []
 	}
-} 
+}

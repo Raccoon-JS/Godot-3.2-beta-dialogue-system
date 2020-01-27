@@ -31,10 +31,10 @@ __meta__ = {
 }
 
 [node name="character" type="TextureRect" parent="."]
-margin_left = 315.0
-margin_top = 84.0
-margin_right = 749.0
-margin_bottom = 600.0
+margin_left = 326.0
+margin_top = 59.0
+margin_right = 686.0
+margin_bottom = 419.0
 texture = ExtResource( 2 )
 expand = true
 __meta__ = {
